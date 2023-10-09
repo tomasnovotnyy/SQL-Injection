@@ -41,3 +41,5 @@ try:
     print(build_sql_select_users_order_by_custom("USERNAME DESC, ID"))
 except Exception as e:
     print(e)
+
+#^(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])[A-Za-z\d]*$
